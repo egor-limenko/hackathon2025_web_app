@@ -8,6 +8,6 @@ const routes = [
 ];
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/hackathon2025_web_app/'),
   routes,
 });
