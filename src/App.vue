@@ -13,9 +13,11 @@ import SideNav from './components/SideNav.vue';
 .app {
   display: flex;
   height: 100vh;
+  background-color: #f4f6f9;
 }
 .view {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
+  overflow-y: auto;
 }
 </style>

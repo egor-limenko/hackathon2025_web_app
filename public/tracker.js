@@ -17,4 +17,6 @@
 
   const observer = new MutationObserver(bindTracking);
   observer.observe(document.body, { childList: true, subtree: true });
+
+  document.addEventListener('DOMContentLoaded', bindTracking);
 })();
